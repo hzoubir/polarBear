@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/main"
+        android:title="@string/main_menu">
+        <menu xmlns:android="http://schemas.android.com/apk/res/android"
+            android:checkableBehavior="none"
+            android:id="@+id/group_id_1"
+            >
+
+                        <item
+                            android:id="@+id/webView_nav"
+                            android:title="@string/action_WebView"/>
+
+
+                        <item
+                            android:id="@+id/location_nav"
+                            android:title="@string/action_maps"/>
+
+                        <item
+                            android:id="@+id/show_clock"
+                            android:title="@string/digital_clock"/>
+        </menu>
+    </item>
+    <item android:id="@+id/main1"
+        android:title="@string/main_menu1">
+        <menu xmlns:android="http://schemas.android.com/apk/res/android"
+            android:checkableBehavior="none"
+            android:id="@+id/group_id_11"
+            >
+
+            <item
+                android:id="@+id/webView_nav1"
+                android:title="@string/working_on_it"/>
+
+
+            <item
+                android:id="@+id/location_nav1"
+                android:title="@string/working_on_it"/>
+
+            <item
+                android:id="@+id/drawer_settings1"
+                android:title="@string/working_on_it"/>
+        </menu>
+    </item>
+</menu>

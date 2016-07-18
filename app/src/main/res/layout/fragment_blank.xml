@@ -1,0 +1,32 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hzoubir.haitamutilsapp.BlankFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <WebView
+    android:id="@+id/webView1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentTop="true" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/noConnectionLayaout"
+        >
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/action_updateWebview"
+            android:id="@+id/button2"
+            android:layout_centerInParent="true"
+             />
+
+
+
+    </RelativeLayout>
+
+
+</FrameLayout>

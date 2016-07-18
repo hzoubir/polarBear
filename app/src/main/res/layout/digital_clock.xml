@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+<LinearLayout
+    android:orientation="horizontal" android:layout_width="@dimen/total_width"
+    android:layout_height="@dimen/total_height"
+    android:id="@+id/digitalCLock">
+
+    <come.example.hzoubir.haitamutilsapp.views.ClockView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:id="@+id/digit_1"
+        android:orientation="vertical"
+        android:visibility="visible"
+        android:layout_margin="@dimen/digit_margin"
+        android:layout_weight="1"/>
+    <come.example.hzoubir.haitamutilsapp.views.ClockView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:id="@+id/digit_2"
+        android:visibility="visible"
+        android:layout_margin="@dimen/digit_margin"
+        android:layout_weight="1"/>
+    <come.example.hzoubir.haitamutilsapp.views.ClockView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:id="@+id/digit_3"
+        android:visibility="visible"
+        android:layout_margin="@dimen/digit_margin"
+        android:layout_weight="1"/>
+    <come.example.hzoubir.haitamutilsapp.views.ClockView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:id="@+id/digit_4"
+        android:visibility="visible"
+        android:layout_margin="@dimen/digit_margin"
+        android:layout_weight="1"/>
+
+</LinearLayout>
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"/>
+</LinearLayout>

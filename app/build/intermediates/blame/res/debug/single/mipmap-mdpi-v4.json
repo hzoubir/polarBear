@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Users/hzoubir/Desktop/android/dev/HaitamUtilsApp/app/build/intermediates/res/merged/debug/mipmap-mdpi-v4/ic_launcher.png",
+        "source": "/Users/hzoubir/Desktop/android/dev/HaitamUtilsApp/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/hzoubir/Desktop/android/dev/HaitamUtilsApp/app/build/intermediates/res/merged/debug/mipmap-mdpi-v4/backroundimage.png",
+        "source": "/Users/hzoubir/Desktop/android/dev/HaitamUtilsApp/app/src/main/res/mipmap-mdpi/backroundimage.png"
+    },
+    {
+        "merged": "/Users/hzoubir/Desktop/android/dev/HaitamUtilsApp/app/build/intermediates/res/merged/debug/mipmap-mdpi-v4/background_material.png",
+        "source": "/Users/hzoubir/Desktop/android/dev/HaitamUtilsApp/app/src/main/res/mipmap-mdpi/background_material.png"
+    }
+]

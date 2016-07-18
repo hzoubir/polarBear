@@ -1,0 +1,48 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+    <style name="backgroundBlack">
+        <item name="background">@color/BackGroundBLACK</item>
+    </style>
+    <style name="backgroundWhite">
+        <item name="background">@color/BackGroundWHITE</item>
+    </style>
+    <style name="backgroundRed">
+        <item name="background">@color/BackGroundRED</item>
+    </style>
+    <style name="backgroundGreen">
+        <item name="background">@color/BackGroundGREEN</item>
+    </style>
+    <style name="backgroundBlue">
+        <item name="background">@color/BackGroundBLUE</item>
+    </style>
+    <style name="backgroundYellow">
+        <item name="background">@color/BackGroundYELLOW</item>
+    </style>
+    <style name="backgroundGray">
+        <item name="background">@color/BackGroundGRAY</item>
+    </style>
+    <style name="backgroundMagenta">
+        <item name="background">@color/BackGroundMAGENTA</item>
+    </style>
+    <style name="backgroundCyan">
+        <item name="background">@color/BackGroundCYAN</item>
+    </style>
+
+
+</resources>
